@@ -53,3 +53,7 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 defaults write com.apple.dock mru-spaces -bool false
 defaults write com.apple.dock show-recents -bool false
 defaults write NSGlobalDomain _HIHideMenuBar -bool true
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+defaults write -g AppleFontSmoothing -int 0
+defaults write com.apple.finder DisableAllAnimations -bool true
+
