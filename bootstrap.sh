@@ -56,4 +56,4 @@ defaults write NSGlobalDomain _HIHideMenuBar -bool true
 defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
 defaults write -g AppleFontSmoothing -int 0
 defaults write com.apple.finder DisableAllAnimations -bool true
-
+defaults write com.apple.dock autohide-delay -float 86400 && pkill Dock
