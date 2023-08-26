@@ -7,6 +7,7 @@ brew install ripgrep
 brew install fd
 brew install tmux
 brew install stow
-# brew install mos
-# m wallpaper
-# install font
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+brew install mos
+brew install cargo-nextest
+brew install node
