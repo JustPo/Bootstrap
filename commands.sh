@@ -10,3 +10,8 @@ brew install stow
 # brew install mos
 # m wallpaper
 # install font
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &&
+brew install stylua
+brew install swiftformat
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+## alacritty clone, go extra folder sudo tic -xe alacritty,alacritty-direct extra/alacritty.info
